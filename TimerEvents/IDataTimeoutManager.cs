@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Util.TimerEvent
+namespace TimerEvent
 {
     /// <summary>
     /// TCP 데이터 수신 타임아웃을 관리하는 인터페이스

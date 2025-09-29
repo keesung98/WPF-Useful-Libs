@@ -1,8 +1,6 @@
 ﻿using System;
-// Telerik이 없다면 지워야함  ViewModelBase상속도 같이
-using Telerik.Windows.Controls;
 
-namespace Util.TimerEvent
+namespace TimerEvent
 {
     /// <summary>
     /// 모델 초기화를 위한 기본 인터페이스
@@ -14,7 +12,7 @@ namespace Util.TimerEvent
     /// <summary>
     /// 타임아웃 관리가 포함된 ViewModel 기본 클래스
     /// </summary>
-    public abstract class TimeoutManagedViewModel : ViewModelBase, IModelInitializer, IDisposable
+    public abstract class TimeoutManagedViewModel :IModelInitializer, IDisposable
     {
         protected readonly IDataTimeoutManager _timeoutManager;
         private bool _disposed = false;

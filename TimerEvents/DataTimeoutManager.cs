@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Timers;
 
-namespace Util.TimerEvent
+namespace TimerEvent
 {
     /// <summary>
     /// TCP 데이터 수신 타임아웃 관리 클래스 (자세한 설명은 하단 참조)
